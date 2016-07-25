@@ -25,5 +25,8 @@ namespace Data
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<sy_menu> sy_menu { get; set; }
+        public virtual DbSet<sy_user> sy_user { get; set; }
+        public virtual DbSet<tasks> tasks { get; set; }
     }
 }

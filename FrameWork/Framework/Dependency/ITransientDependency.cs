@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data
+namespace FrameWork.Framework.Dependency
 {
-    public class Class1
+   public  interface ITransientDependency
     {
     }
 }
